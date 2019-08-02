@@ -147,3 +147,23 @@ h2{
     letter-spacing: 1.1;
 
 }
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+#button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100px;
+    padding: 10px;
+    border: none;
+}
