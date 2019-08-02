@@ -1,7 +1,10 @@
 body{
   width: 960px;
   padding: 0 100px 0 100px;
-  background-image: url("../images/mosaic.png")
+  background-image: url("../images/leaves-pattern.png");
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
 }
 
 header{
@@ -9,48 +12,69 @@ header{
     background-color:  #4aaaa5;
     color: #ffffff; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100px;
-    padding: 10px;
+    width: 180px;
+    height: 40px;
+    padding: 20px;
+    margin-left: 80px;
     float: left;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 28px;
+    font-weight: 700;
 }
 
+#headerspace{
+    width: 830px;
+    float: left;
+
+}
 nav{
     padding: 20px;
     background-color: #ffffff;
-    height: 40px;
-    width: 940px;
     position: fixed;
     margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
     top: 0;
+    left: 0;
+    border-bottom: 2px solid #cccccc;
 }
 
+
 .pagenav{
-    float: right;
+    float: left;
+    padding: 10px 30px 0 0;
 }
 
 a{
     text-decoration: none;
+    padding: 10px;
+    color: #777777;
+}
 
+a:visited{
+    text-decoration: none;
 }
 
 #Portfoliolink{
     border-right: 1px solid #cccccc;
     border-left: 1px solid #cccccc;
-    padding: 0 4px 0 4px;
+    padding: 0 10px 0 10px;
 }
 
 .AboutMe{
     background-color: #ffffff;
-    margin-top: 100px;
+    margin-top: 120px;
     padding: 20px;
-    width: 940px;
-    
+    width: 940px;   
+    height: 700px;
 }
 
 h1{
     color: #4aaaa5;
     border-bottom:  3px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer{
@@ -60,6 +84,66 @@ footer{
     bottom: 0;
     left: 0;
     position: absolute;
-    border-top: 2px solid #4aaaa5;
-    
+    border-top: 4px solid #4aaaa5;
+    color: #ffffff;
+     
+}
+#footerspace{
+    width: 33.3%;
+    float: left;
+}
+
+#copyright{
+    text-align: centre;
+    font-size: 10px;
+    float: left;
+    width: 33.3%;
+    padding: 50px 0 0 150px;
+}
+
+.Portfolio{
+    background-color: #ffffff;
+    margin-top: 120px;
+    padding: 20px;
+    width: 940px; 
+    height: 700px;
+
+}
+
+.Contact{
+    background-color: #ffffff;
+    margin-top: 120px;
+    padding: 20px;
+    width: 940px; 
+    height: 700px;
+}
+
+
+
+.portfolioitem{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+h2{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    position: absolute;
+    margin-top: 120px;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 300;
+    letter-spacing: 1.1;
+
 }
