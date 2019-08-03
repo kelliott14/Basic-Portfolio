@@ -5,6 +5,7 @@ body{
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   color: #777777;
+  height: 100%;
 }
 
 header{
@@ -79,13 +80,16 @@ h1{
 
 footer{
     background-color: #666666;
-    height: 80px;
-    width: 100%;
-    left: 0;
-    position: absolute;
+    color: #ffffff;  
     border-top: 4px solid #4aaaa5;
-    color: #ffffff;
-    margin-bottom: 0;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
 }
 
 
@@ -99,21 +103,21 @@ footer{
     font-size: 10px;
     float: left;
     width: 33.3%;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
-.Portfolio{
+.portfolio{
     background-color: #ffffff;
-    margin: 120px 0 20px 0;
+    margin: 120px 0 120px 0;
     padding: 20px;
     width: 940px; 
-    height: 700px;
+    height: 1015px;
 
 }
 
 .contact{
     background-color: #ffffff;
-    margin: 120px 0 20px 0;
+    margin: 120px 0 120px 0;
     padding: 20px;
     width: 940px; 
     height: 700px;
@@ -125,27 +129,27 @@ footer{
     width: 200px;
     height: 200px;
     float: left;
-    margin: 20px;
+    margin: 20px 50px 20px 50px;
     background-color: #ffffff;
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: auto;
+    margin: 30px;
 }
 
 h2{
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 250px;
     position: absolute;
-    margin-top: 120px;
+    margin: 190px 0 0 30px;
     font-size: 18px;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: 300;
-    letter-spacing: 1.1;
 
 }
 
